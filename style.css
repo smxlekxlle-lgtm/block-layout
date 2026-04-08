@@ -1,0 +1,197 @@
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+p{
+    color: white;
+}
+body{
+    width: 100%;
+    height: 50vw;
+}
+
+.container:not(footer){
+    width: 100%;
+    height: 459px;
+}
+
+.duo{
+    background-color: rgb(13, 13, 71);
+}
+
+h1{
+    position: relative;
+    top: 200px;
+    left: 355px;
+    font-size: 55px;
+    height: fit-content;
+}
+
+/* ======================pg-1====================== */
+
+.pg-1:not(h1){
+    display: flex;
+    /* height: fit-content; */
+    width: 100%;
+}
+
+/* ======================img====================== */
+
+img[src="image/thumb-1920-335945.png"]{
+    width: 375px;
+    height: 375px;
+    margin-top: 84px;
+}
+img[src="image/call-of-the-night.webp"]{
+    width: 200px;
+    height: 30%;
+    position: relative;
+    right: 245px;
+}
+
+/* ======================right-box====================== */
+
+.pg-1-right{
+    width: 50vw;
+    /* height: fit-content; */
+    margin-left: 25px;
+}
+.pg-1-right *{
+    display: block;
+}
+/* ======================right-box-text====================== */
+.pg-1-right-text{
+    width: 80%;
+    margin-top: 115px;
+    margin-left: 58px;
+}
+.pg-1-right h2,p{
+    width: fit-content;
+}
+.pg-1-right h2{
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.pg-1-text{
+    width: 90%;
+}
+
+/* ======================pg-1====================== */
+
+.nav-link *{
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: white;
+}
+a{
+    font-size: 20px;
+}
+.nav-link{
+    /* background-color: green; */
+    width: fit-content;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+/* ======================pg-2====================== */
+
+.pg-2{
+    background-color: rgb(69, 15, 141);
+    display: flex;
+}
+
+.pg-2-left{
+    height: fit-content;
+    width: fit-content;
+}
+.pg-2-right{
+    height: fit-content;
+    width: fit-content;  /*even though i put width and height to be fit-content it will move behond his parent limit height or width, to fix that i should add fit-content to the parent also */
+}
+.pg-2-left,.pg-2-right{
+    margin-top: 65px;
+}
+.left-marg{
+    margin-left: 45px;
+    display: flex;
+    height: fit-content;
+}
+.left-marg *{
+    width: fit-content;
+}
+/* ======================pg-2-text====================== */
+
+.pg-2-right-text{
+    width: 50%;
+}
+.pg-2-left-text{
+    width: 50%;
+}
+.pg-2 h2{
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* ======================footer====================== */
+
+footer{
+    width: 100%;
+    height: 100px;
+    /* display: flex; */
+    /* display: float-root; */
+}
+
+.footer-container{
+    display: flex;
+    height: 45px;
+    width: fit-content;
+    position: relative;
+    left: 168px;
+    /* display: float-root; */
+}
+
+.gallery{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 1rem;
+    margin: 0px 15px 0px 15px;
+    position: relative;
+    bottom: 155px;
+}
+
+.pic-1{
+    background-image: url(image/nazuna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pic-2{
+    background-image: url(image/ko\ yamori.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gal-text{
+    color: blue;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.gal-text p{
+    color: white;
+    margin-top: 15px;
+    margin-left: 74px;
+}
+
+.solo p{
+    font-style: italic;
+}
